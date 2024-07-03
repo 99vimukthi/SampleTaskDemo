@@ -11,7 +11,7 @@ namespace SampleTask.Controllers
         [HttpGet]
         public IActionResult Tasks()
         {
-            var task= new string[] { "Task 1", "Task 2", "Task 3" };
+            var task= new string[] { "Task 1", "Task 2", "Task 3","Task 4" };
             return Ok(task);
         }
 
